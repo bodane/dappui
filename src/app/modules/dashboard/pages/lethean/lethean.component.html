@@ -1,1 +1,17 @@
-<p>lethean works!</p>
+<header>
+    <app-lthn-wallet-header></app-lthn-wallet-header>
+</header>
+<body>
+    <div class="hidden sm:block">
+        <div class="border-b border-gray-200">
+          <nav class="-mb-px flex space-x-8" aria-label="Tabs">
+            <app-lthn-existing-wallet></app-lthn-existing-wallet>
+            <app-lthn-wallet-transactions></app-lthn-wallet-transactions>
+            <app-lthn-wallet-send></app-lthn-wallet-send>
+            <app-lthn-wallet-receive></app-lthn-wallet-receive>
+            <app-lthn-wallet-settings></app-lthn-wallet-settings>
+          </nav>
+        </div>
+    </div>
+    <app-lthn-new-wallet></app-lthn-new-wallet>
+</body>
