@@ -6,11 +6,10 @@ import { LthnWalletSettingsComponent } from '../../components/lthn-wallet/lthn-w
 import { LthnWalletTransactionsComponent } from '../../components/lthn-wallet/lthn-wallet-transactions/lthn-wallet-transactions.component';
 import { LthnNewWalletComponent } from '../../components/lthn-wallet/lthn-new-wallet/lthn-new-wallet.component';
 import { LthnExistingWalletComponent } from '../../components/lthn-wallet/lthn-existing-wallet/lthn-existing-wallet.component';
-import { NftChartCardComponent } from '../../components/nft/nft-chart-card/nft-chart-card.component';
 
 @Component({
   selector: 'app-lethean',
-  imports: [LthnWalletHeaderComponent, LthnWalletReceiveComponent, LthnWalletSendComponent, LthnWalletSettingsComponent, LthnWalletTransactionsComponent, LthnNewWalletComponent, LthnExistingWalletComponent, NftChartCardComponent],
+  imports: [LthnWalletHeaderComponent, LthnWalletReceiveComponent, LthnWalletSendComponent, LthnWalletSettingsComponent, LthnWalletTransactionsComponent, LthnNewWalletComponent, LthnExistingWalletComponent],
   templateUrl: './lethean.component.html',
   styleUrl: './lethean.component.css'
 })
